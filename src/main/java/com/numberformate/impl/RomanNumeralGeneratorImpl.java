@@ -1,8 +1,9 @@
 package com.numberformate.impl;
 
 import com.numberformate.core.NumeralGenerator;
+import com.numberformate.core.Validator;
 
-public class RomanNumeralGeneratorImpl implements NumeralGenerator {
+public class RomanNumeralGeneratorImpl implements NumeralGenerator, Validator {
 
     String[] M = {"", "M", "MM", "MMM"};
     String[] C = {"", "C", "CC", "CCC", "CD", "D", "DC", "DCC", "DCCC", "CM"};
